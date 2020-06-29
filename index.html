@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!--  
+Exercise - Add CSS
+
+Add HTML and CSS to create a webpage for a business (real or imagined). The following are the minimum requirements for your page; feel free to add more HTML or CSS if you have additional time. 
+
+HTML requirements:
+* three divs
+* a span and a paragraph 
+* two headers
+* a link
+* an image
+* a list
+* a class (which should be put on multiple elements)
+* two ids 
+
+CSS requirements:
+* a tag selector
+* a class selector
+* an id selector
+* use the following attributes: height, width, border, color, background-color, font-size
+* add margin and padding to two different elements  
+
+Stretch Goal: Use online resources to learn a little about the CSS properties of 'display' and 'position'. Incorporate them into your page.
+-->
+<div>
+  <div class="wrapper">
+  <h1>Curious Minds - Kids Early Learnings</h1>
+  <div class="fpage">
+  <p class="main"> Welcome ! Check out our early learning puzzles, flashcards, handmade learning materials for little hands...</p>
+   <a href="#" class id="toggleNav">Menu</a>
+  <nav class=flex-nav>
+    <ul>
+      <li><a href="#"> Puzzles</a><li>
+      <li><a href="#"> Worksheets</a><li>
+      <li><a href="#"> Flashcards</a><li>
+      <li><a href="#"> Pattern Matching</a><li>
+      <li><a href="#"> Inspiring Videos</a><li>
+    </ul>
+  </div>
+  <div id=homepageimg>
+      </div>
+    <button id="button1" onclick="location.href='https://www.etsy.com/listing/663373598/montessori-geometric-shapes-puzzle?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=curious+minds+square+puzzle&ref=sc_gallery-1-4&plkey=bf1ecd526dfe7533630b63b711262622ab4f740a%3A663373598';">Click to Order </button>
+     <h4> Click image to view more puzzle </h4>
+    <img id = "newpuzzle" src="https://image.shutterstock.com/image-vector/mandala-background-arabesque-pattern-arabic-260nw-1701268981.jpg" onclick = "changePic()">
+    </div>
+    
+  <script src=index.js></script>
+</body>
+</html>

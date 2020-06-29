@@ -1,0 +1,77 @@
+
+#homepageimg { 
+  background: url("https://github.com/KVlearn/Nature/blob/master/IMG-20170918-WA0011.jpg?raw=true");
+   padding: 500px;
+  background-position:center;
+   background-repeat: no-repeat;
+}
+.fpage{
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.7));
+  font-size:20px;
+}
+h1 {
+ color:LIGHTCORAL;
+ text-align:center;
+ font-size:60px;
+}
+
+.main {
+font-size:30px;
+  color:indianred;
+  text-align:center;
+}
+.pict{
+  width:100%;
+}
+#toggleNav{
+  color:Green;
+}
+a{
+  width:100%;
+  text-align:center;
+  color:black;
+  padding:10px;
+  display:block; 
+  position:relative;
+}
+a:hover{
+  background:rgba(6,0,3,0.5);
+}
+.toggleNav{
+  display:none;
+}
+wrapper{
+  max-width: 500px;
+  margin:0 auto;
+  padding:10px;
+}
+/*flex container*/
+.flex-nav ul{
+  border:1px solid goldenrod;
+  list-style:none;
+  font-size:25px;
+  margin: 0;
+  padding: 0;
+  display:flex;
+}
+.flex-nav li{
+  flex:6;
+}
+@media (max-width:500px){
+  .flexnav li{
+    display:flex;
+    flex-wrap: wrap;
+  }
+}
+#newpuzzle{
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+#button1 {
+  color: brown;
+  font-family: sans-serif;
+  font-size: 25px;
+  border: 15px;
+  padding: 10px;
+}
